@@ -1,10 +1,10 @@
 # Bem vindos a diciplina de programação Front-End
 
-ola,meu nome é **mateus zavodini🔱**
+Ola,meu nome é **mateus zavodini🔱**
 
- -:+1:meu email de contato é mateus.zanatta@escola.pr.gov.br
+ -:+1:Meu email de contato é Mateus.zanatta@escola.pr.gov.br
  
- **eu estou interessado em aprender novas linguagens**
+ **Eu estou interessado em aprender novas linguagens**
  
 
  
