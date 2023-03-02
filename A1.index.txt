@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang ="pt-br>
+
+    <head>
+         <meta charset ="UTF-8">
+         <title> Atividade pratica 1 </title>
+    </head>
+
+    <body>
+        <p><h1>Pensamento computacional</h1></p>     
+        <p> É o processo de <mark>Pensamento </mark>
+        envolvido na <em>formulação </em> de um problema
+        e na <u>expressão de sua solução </u></p>
+        <hr>
+        <p><h2>Habilidade</h2></p>
+        <p>precisa de <mark>habilidades </mark>
+        para resolver<mark>problemas e desafios </mark>
+        de forma<u>eficiente </u> assim como o computador
+        faria
+        <hr>
+
+        <P><h3>1-decomposição</p></h3>
+        <P><h3>2-abstração</p></h3>
+        <p><h3>3-reconhecimento</p></h3>
+        <P><h3>4-algoritimo</p></h3>
+    </body>
+</html>
+        
