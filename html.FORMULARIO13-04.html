@@ -3,34 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <title>CSS EXTERNO</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="formulario.css">
+
+       
     </head>
     <body>
+        
         <header> <!--cabeçalho-->
         </header>
         <main> <!--meio-->
-            <selection>
+            <section class="box"></section>
+            <section class="inputBox">
                 <form>
                     <fieldset>
                     <legend><strong>Formulario do cliente</strong></legend>
                     <br>
-                    <selection>
+                    <section></section>
+                    
                         <input type="text" name="nome" class="inputUser" required>
-                        <label for="name"class="labelinput">Mateus Zavodini</label>
-                    </selection>
+                        <label for="name"class="labelinput">Nome do cliente</label>
+                        
+                        <br>
+                    </section>
+
                     <br>
-                    <selection>
+                    <section>
                         <input type="text" name="email" id="email"class="inputUser" required>
                         <label for="name" class="labelinput">email</label>
-                        </selection>
-                        <selection>
+                        </section>
+                        <br>
+                        <br>
+                        <section>
                             <input type="tel" name="telefone" id="telefone
                             " class="inputUser" required>
                             <label for="telefone"class="labelinput">telefone</label>
-                        </selection>
+                        </section>
+                        <p>sexo:</p>
+                        <input type="radio" name="genero" id="feminino" value="feminino">
+                        <label for="feminino">feminino</label>
+                        <br>
+                        <input type="radio" name="genero" id="masculino" value="masculino">
+                        <label for="masculino">masculino</label>
+                        <br>
+                        <input type="radio" name="genero" id="outro" value="outro">
+                        <label for="outro">outro</label>
+                        <br>
                     </fieldset>
                 </form>
-            </selection>
+            </section>
         </main>
     </body>
 </html>
