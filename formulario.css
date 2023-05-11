@@ -1,16 +1,69 @@
 body{
-
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
-}
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    }    
+      
 .box{
-    color:white;
+    color: aliceblue;
     position: absolute;
-    top:55%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
     width: 30%;
 }
+legend{
+    border:1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color:white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelinput{/*animação das labels - nessa parte, as labels irá se encaixar dentro dos inputs*/
+    position: absolute; /*vai ocupar apenas o elemento dela mesma*/
+    top: 0px;
+    left: 0px;
+    pointer-events: none;/*qualquer luagr que eu clicar dentro do input, ele vai executar ação*/
+    transition: 5px;/*transição - para a criação de efeitos de animação personalizade*/
+
+}
+
+/*Quando clicar no input eu quero que a albel vai para cima do input - por isso a ação é no input*/
+
+.inputUser:focus ~ .labelinput, /*executar uma ação na nossa label*/
+.inputUser:valid ~ .labelinput,{ /*qdo o input tiver válido, eu quero que ele execute essa ação para o label - a informação irá permanecer no input senão
+    irá ficar por cima*/
+    top:20px;
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#enviar{
+    background-image: linear-gradient(to right, rgb(0, 92, 192,), rgb);
+}
+
+
+
+
