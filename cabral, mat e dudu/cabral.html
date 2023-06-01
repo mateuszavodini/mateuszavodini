@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato 22/05</title>
+        <link rel="stylesheet" href="mat.css">
+        <link href="https://www.wfonts.com/font/kg-blank-space-solid" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="LUX BUT" src="LUX BUT.png" width="350px" height="350px">
+            <h1 class="titulo-principal">Loja de calçados esportivos</h1>
+        </header>
+
+        <main>
+            <form>
+                <label for="Nomesobrenome">Nome e sobrnome:</label>
+                <input type="text" name="nome" id="Nomesobrenome" class="input-padrao" placeholder="Seu nome e sobrenome" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea cols="70" rows="10" id="mensagem" placeholder="Digite seu texto aqui!" required></textarea>
+                
+                <section>
+                    <p>Como prefere nosso contato?<p>
+
+                    <label for="radio-email"><input type="radio" name="Contato" value="email" id="radio-email">Email</label>
+                    <label for="radio-telefone"><input type="radio" name="Contato" value="telefone" id="radio-telefone">Telefone</label>
+                    <label for="radio-whatsapp"><input type="radio" name="Contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                </section>
+
+                <section>
+                    <p>Qual horário prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </section>
+                <label class="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+            </form>
+            <button> Enviar feedback </button>
+            <br>
+        </main>
+
+        <footer>
+            <div class="imgf">
+            <img src="LUX BUT.png" alt="Logotipo" class="logof"/>
+            </div>
+            <p class="copyright">&copy; Copyright -- Mateus - Gabriel G. - Eduardo</p>
+        </footer>
+    </body>
+</html>

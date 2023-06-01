@@ -1,0 +1,76 @@
+body{
+    padding:0;
+    margin: 0;
+}
+header{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 139, 239));
+    padding: 20px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+#logo{
+    border-radius:10px;
+    width:200px;
+    height:200px;
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-30%, -15%);
+    font-size: 35px;
+    font-family: 'KG Blank Space Solid';
+}
+
+@font-face {
+    font-family: 'KGBlankSpaceSolid';
+    src: url(KGBlankSpaceSolid.ttf) format('opentype');
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior e inferior de 40 px, para os lados zero*/
+}
+
+form label, form p{/*Vamos replicar a mesma configuração do form label para o parágrafo, por isso, o uso da vírgula*/
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;/* 10px para baixo*/
+
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;/* 20px para baixo*/
+    padding: 10px 25px; /* 10px p/ cima e p/ baixo e 25px p/ os lados*/
+    width: 50%; /*largura dos meus inputs*/
+   
+}
+
+.checkbox{
+    margin: 20px 0; /*20 px p/ cima e p/ baixo e zero nas laterais*/
+}
+
+footer {
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(to right, rgb(240, 190, 234), rgb(250, 64, 226));
+    text-align: center;
+
+}
+
+.imgf { display: flex; justify-content: center; }
+.logof {width: 115px; height: 115px; border-radius: 22px; margin-top: 15px;}
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 64, 226);
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
